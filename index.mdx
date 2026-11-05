@@ -1,0 +1,41 @@
+---
+title: "Go-Turso Benchmark — Dokumentasi"
+description: "Dokumentasi CLI benchmark CRUD dan concurrent INSERT dengan Turso MVCC"
+---
+
+# Go-Turso Benchmark
+
+Dokumentasi untuk [rezapace/Go-Turso](https://github.com/rezapace/Go-Turso) — CLI benchmark CRUD dan concurrent `INSERT` dengan Turso MVCC (`BEGIN CONCURRENT`).
+
+## Daftar Dokumen
+
+<CardGroup cols={2}>
+  <Card title="Technical Plan" href="/docs/technical-plan">
+    Rencana teknis, keputusan arsitektur, batasan MVCC, dan quality gate.
+  </Card>
+  <Card title="Test Results" href="/docs/test-results">
+    Hasil smoke test, race detector, build ARM64, dan benchmark.
+  </Card>
+  <Card title="Notes" href="/docs/notes">
+    Contoh program Go lengkap dan penjelasan cara kerja MVCC.
+  </Card>
+</CardGroup>
+
+## Ringkasan Proyek
+
+| Aspek | Keterangan |
+|---|---|
+| Bahasa | Go 1.23+ |
+| Database | Turso lokal (LibSQL) via driver `turso-go` |
+| Mode | `crud` dan `benchmark` |
+| Metrik | Throughput, average latency, P50/P95/P99 |
+
+## Tautan Terkait
+
+- Repository utama: [github.com/rezapace/Go-Turso](https://github.com/rezapace/Go-Turso)
+- README utama: [Go-Turso#readme](https://github.com/rezapace/Go-Turso#readme)
+- Release v1.0.0: [Release v1.0.0](https://github.com/rezapace/Go-Turso/releases/tag/v1.0.0)
+
+<Tip>
+Dokumentasi ini dibangun dengan Mintlify dan di-deploy sebagai static site ke GitHub Pages.
+</Tip>

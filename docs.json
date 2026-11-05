@@ -1,0 +1,39 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Go-Turso Benchmark",
+  "description": "Dokumentasi CLI benchmark CRUD dan concurrent INSERT dengan Turso MVCC",
+  "colors": {
+    "primary": "#00ADD8",
+    "light": "#00ADD8",
+    "dark": "#007589"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "id",
+        "tabs": [
+          {
+            "tab": "Dokumentasi",
+            "groups": [
+              {
+                "group": "Dokumen",
+                "pages": [
+                  "index",
+                  "docs/technical-plan",
+                  "docs/test-results",
+                  "docs/notes"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/rezapace/Go-Turso"
+    }
+  }
+}
